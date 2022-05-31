@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | paste -s |tr -d "[:blank:]"
+find . -mindepth 1 -type d | wc -1
