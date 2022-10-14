@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-declare -i idx=0
-
-until (( idx == 10 ))
-do
-    echo "Best School"
-    (( idx++ ))
-done
